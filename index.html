@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Proyecto informatico</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        text-align: center;
+        background-color: #000000;
+    }
+
+    header {
+        background-color: #000000;
+        color: #ffffff;
+        padding: 20px;
+        font-size: 24px;
+    }
+
+    nav {
+        background-color: #000000;
+        padding: 10px;
+    }
+
+    nav button {
+        background-color: #460808;
+        border: none;
+        color: rgb(255, 255, 255);
+        padding: 10px 20px;
+        margin: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: 0.3s;
+    }
+
+    nav button:hover {
+        background-color: #e00303;
+    }
+
+    .contenido {
+        display: none;
+        text-align: left;
+        padding: 20px;
+        background-color: #000000;
+        width: 90%;
+        margin: 20px auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #ffffff;
+    }
+
+    .visible {
+        display: block;
+    }
+
+    .seccion {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .texto {
+        width: 45%;
+    }
+
+    .texto iframe {
+        margin-top: 15px;
+    }
+
+    .imagen {
+        width: 45%;
+        text-align: center;
+    }
+
+    .imagen img {
+        width: 90%;
+        border-radius: 10px;
+    }
+
+    .conclusion {
+        width: 100%;
+        margin-top: 10px;
+        background-color: #ffffff; 
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    footer {
+        background-color: green;
+        color: #ffffff;
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    .volver {
+        background-color: #5f0606;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 10px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+    .volver:hover {
+        background-color: #c50202;
+    }
+</style>
+
+ <style>
+    .texto {
+        color: #ffffff; 
+    }
+</style>
+
+ <style>
+    .conclusion {
+        color: #ffffff; 
+        background-color: #000000;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Texto informativo de PPE</h1>
+</header>
+
+<nav>
+    <button onclick="mostrar('inicio')">Inicio</button>
+    <button onclick="mostrar('sedentarismo')">sedentarismo</button>
+    <button onclick="mostrar('escolares')">Sedentarismo en escolares</button>
+    <button onclick="mostrar('psicológico')">Impacto psicológico del sedentarismo</button>
+    <button onclick="mostrar('diabéticas')">Sedentarismo en personas diabéticas</button>
+    <button onclick="mostrar('Guido')">Guido Ceronetti</button>
+    <button onclick="mostrar('cuerpo')">El silencio del cuerpo</button>
+    <button onclick="mostrar('mente')">El silencio de la mente</button>
+    <button onclick="mostrar('conclusion')">Conclusión</button>
+</nav>
+
+<div id="inicio" class="contenido visible" style="text-align: center;">
+    <h2  style="color: white;" >Bienvenidos a la pagina de PPE</h2>
+        <div class="seccion" >
+            <p style="text-align: center;color: white;"> En este espacio vamos a hablar sobre algunos temas interesantes de la "salud" que te ayudarán a aprender y reflexionar de manera sencilla y práctica sobre el movimiento.</p>
+        </div>
+</div>
+
+<div id="sedentarismo" class="contenido">
+    <h2  style="color: white;">¿Que es el sedentarismo?</h2>
+    <div class="seccion">
+        <div class="texto">
+            <p>El sedentarismo es un estilo de vida caracterizado por la falta de actividad física regular. Ocurre cuando las personas pasan la mayor parte del tiempo sentadas o inactivas, ya sea por trabajo, estudio o entretenimiento. Este hábito se ha vuelto muy común debido al uso excesivo de la tecnología, el transporte motorizado y las comodidades modernas.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DgkMEXwToEE?si=XboME8p1FoE_RKqx" title="sedentarismo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="imagen">
+            <img src="https://www.ladobe.com.mx/wp-content/uploads/2018/01/sedentarismo.png" width="300" height="250">
+            <div class="conclusion"div class="conclusion">
+                <strong>Conclusión:</strong> <p>El sedentarismo, cada vez más común por la tecnología y las comodidades actuales, reduce nuestra actividad física y afecta la salud, por lo que es importante moverse más cada día.</p>
+            </div>
+        </div>
+    </div>
+    <button class="volver" onclick="mostrar('inicio')">Volver al inicio</button>
+</div>
+
+
+<div id="escolares" class="contenido">
+    <h2  style="color: white;">El sedentarismo escolar</h2>
+    <div class="seccion">
+        <div class="texto">
+            <p>El sedentarismo en las escuelas ocurre cuando los estudiantes pasan demasiado tiempo sentados, lo que afecta su salud y concentración. Por eso, es importante incluir más momentos de movimiento y actividades físicas durante la jornada escolar.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wrc-zLBBSGg?si=owLW-yRmH5IHdtYV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="imagen">
+            <img src="https://naturalmentemargui.wordpress.com/wp-content/uploads/2016/03/gimnasia12.jpg" width="300" height="250">
+            <div class="conclusion">
+                <strong>Conclusión:</strong> para reducir el sedentarismo en las escuelas es clave fomentar más movimiento y actividades físicas, ayudando a que los estudiantes se mantengan saludables, atentos y con mejor rendimiento en clase.
+            </div>
+        </div>
+    </div>
+    <button class="volver" onclick="mostrar('inicio')">Volver al inicio</button>
+</div>
+
+
+<div id="psicológico" class="contenido">
+    <h2  style="color: white;">el sedentarismo psicológico</h2>
+    <div class="seccion">
+        <div class="texto">
+            <p>A nivel psicológico, el sedentarismo puede generar estrés, ansiedad y depresión. Al no moverse con frecuencia, el cuerpo produce menos endorfinas, que son las hormonas del bienestar. Las personas sedentarias suelen tener menor autoestima, dificultades para dormir y una sensación constante de cansancio o desmotivación. La mente, igual que el cuerpo, necesita movimiento para mantenerse activa y equilibrada.</p>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/yNqkYCxbG6k?si=qAzSzQldV-A9OytT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" REFERRERPOLICY="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="imagen">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD5VMuxP-qH_RCEy7zYnLN7mk5O_QHaNO5ow&s" width="300" height="250">
+            <div class="conclusion">
+                <strong>Conclusión:</strong>  el sedentarismo psicológico afecta directamente el bienestar emocional, pues reduce la producción de hormonas que generan bienestar y aumenta el estrés y la desmotivación. Así como el cuerpo, la mente necesita actividad para mantenerse sana, equilibrada y con buena energía. > 
+            </div>
+        </div>
+    </div>
+    <button class="volver" onclick="mostrar('inicio')">Volver al inicio</button>
+</div>
+
+
+<div id="diabéticas" class="contenido">
+    <h2  style="color: white;">Sedentarismo en personas diabéticas</h2>
+    <div class="seccion">
+        <div class="texto">
+            <p>En las personas con diabetes, el sedentarismo puede tener consecuencias graves. La falta de actividad física reduce la sensibilidad a la insulina, lo que eleva los niveles de azúcar en la sangre. También aumenta el riesgo de complicaciones cardiovasculares, obesidad y neuropatías. Realizar ejercicio moderado y frecuente ayuda a mantener un control adecuado de la glucosa y mejora la calidad de vida.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Qk1iOrB21Xc?si=JjoGprRG8Yo1KfY3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="imagen">
+            <img src="https://asscat-hepatitis.org/wp-content/uploads/obesidad-8.jpg.webp" width="300" height="250">
+            <div class="conclusion">
+                <strong>Conclusión:</strong> en las personas con diabetes el sedentarismo agrava el control del azúcar y aumenta el riesgo de complicaciones. Mantener actividad física regular es clave para mejorar la sensibilidad a la insulina, proteger la salud y lograr una mejor calidad de vida.
+            </div>
+        </div>
+    </div>
+    <button class="volver" onclick="mostrar('inicio')">Volver al inicio</button>
+</div>
+
+
+<div id="Guido" class="contenido">
+    <h2  style="color: white;">Biografía</h2>
+    <div class="seccion">
+        <div class="texto">
+            <p>Guido Ceronetti (1927- 2018) fue un escritor, poeta, periodista y dramaturgo italiano. <br>
+                Desde joven se interesó por la literatura clásica, la filosofía y las lenguas antiguas. Su obra se caracteriza por una visión crítica de la sociedad moderna, a la que veía como deshumanizada. <br>
+                Trabajó en importantes periódicos italianos y se destacó por reflexionar sobre el sufrimiento humano y la pérdida de valores. Su libro más reconocido, El silencio del cuerpo (1979), trata temas como la fragilidad, el dolor y la relación entre cuerpo y alma. <br>
+                También creó el Teatro dei Sensibili, donde usó marionetas para transmitir ideas poéticas y filosóficas. Ceronetti es recordado como un “filósofo del alma” y dejó un legado que invita a pensar sobre la vida y la condición humana.<br></p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/EH3L3Xp1teE?si=ssPWEN0Xk0JHbSTB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="imagen">
+            <img src="https://artslife.com/wp-content/uploads/2020/09/Guido-Ceronetti.png" > 
+            <div class="conclusion">
+                <strong>Conclusión:</strong> Guido Ceronetti fue un pensador profundo y crítico de la modernidad, cuya obra combinó literatura, filosofía y espiritualidad. A través de sus escritos y su teatro, invitó a reflexionar sobre la fragilidad humana, el sentido de la existencia y la necesidad de recuperar la sensibilidad en un mundo cada vez más deshumanizado. Su legado perdura como una llamada a la introspección y al valor del espíritu. 
+            </div>
+        </div>
+    </div>
+    <button class="volver" onclick="mostrar('inicio')">Volver al inicio</button>
+</div>
+
+<div id="cuerpo" class="contenido">
+    <h2 style="color: white;">El silencio del cuerpo</h2>
+    <div class="seccion">
+        <div class="texto">
+            <p>“El silencio del cuerpo” es una obra del escritor y filósofo italiano Guido Ceronetti, publicada en 1979. En este libro, Ceronetti reflexiona sobre la fragilidad, el sufrimiento y la decadencia del cuerpo humano.
+El autor ve al cuerpo no solo como un conjunto de órganos, sino como un ser que “habla” a través del dolor, del cansancio y de la enfermedad. Sin embargo, en la vida moderna, el cuerpo parece haber sido silenciado: la sociedad evita hablar de la vejez, la muerte o el malestar, buscando ocultarlos bajo la apariencia de bienestar.<br>
+Para Ceronetti, “el silencio del cuerpo” es también un llamado a escuchar lo que el cuerpo nos quiere decir (a través de sus señales y límites), porque comprender el cuerpo es comprender la condición humana.</p>
+           <div class="conclusion">
+                <strong>Conclusión:</strong> El silencio del cuerpo es una obra donde Ceronetti analiza la fragilidad humana y cómo el cuerpo expresa dolor y límites. Señala que la sociedad moderna intenta ocultar la vejez y el sufrimiento, pero entender al cuerpo es esencial para comprender la condición humana.
+            </div>
+        </div>
+        <div class="imagen">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUsc9AnI4k9A8iEcQgZV7ugQSMAKHieEPcwQ&s" width="500" height="350">
+        </div>
+    </div>
+    <button class="volver" onclick="mostrar('inicio')">Volver al inicio</button>
+</div>
+
+<div id="mente" class="contenido">
+    <h2 style="color: white;">el silencio de la mente</h2>
+    <div class="seccion">
+        <div class="texto">
+            <p>Para Guido Ceronetti, el silencio de la mente es un estado interior en el que el pensamiento deja de ser ruido para convertirse en claridad. No se trata de dejar de pensar, sino de liberar la mente de distracciones, excesos y preocupaciones inútiles que llenan la vida moderna.<br>
+             Ceronetti veía el mundo actual como un lugar saturado de información, ruido y estímulos que dejan a la mente cansada, confundida y desconectada de su verdadera esencia.<br>
+             Por eso, el silencio mental era, para él, una forma de resistencia espiritual, un acto de protección y de búsqueda interior.</p>
+            <ul>
+                <li>Escuche su voz interna:esa parte auténtica que suele quedar enterrada bajo el ruido del día a día.</li>
+                <li>Encuentre serenidad, porque sin silencio no hay espacio para la calma ni para la introspección.</li>
+            </ul>
+            <iframe width="600" height="383" src="https://www.youtube.com/embed/fWiAGyDb7lU" title="🧠Sedentarismo Cognitivo: El Enemigo Silencioso de tu Psique" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="imagen"> 
+            <img src="https://thumbs.dreamstime.com/b/el-logotipo-del-silencio-sea-icono-reservado-en-fondo-oscuro-132404519.jpg" width="300" height="250">
+            <div class="conclusion">
+                <strong>Conclusión:</strong> Para Ceronetti, el silencio de la mente es un estado de claridad interior donde el pensamiento se libera del ruido y las distracciones. En un mundo lleno de información y estímulos, veía este silencio como una forma de protección espiritual y una búsqueda profunda de uno mismo.
+            </div>
+        </div>
+    </div>
+    <button class="volver" onclick="mostrar('inicio')">Volver al inicio</button>
+</div>
+
+<div id="conclusion" class="contenido">
+    <h2  style="color: white;">Conclusión del texto informativo</h2>
+    <div class="seccion">
+        <div class="texto">
+             <ul>
+                <li>El sedentarismo me enseñó que la falta de movimiento no solo afecta al cuerpo, sino también a la mente y al espíritu. Comprendí que el cuerpo necesita actividad para mantenerse fuerte, pero también descanso y equilibrio para estar sano. Moverse es una forma de agradecerle a la vida la posibilidad de existir. </li>
+                <li>el silencio del cuerpo, descubrí que nuestro cuerpo no siempre habla con palabras, sino con señales: el cansancio, el dolor o la calma. Aprendí que debemos escucharlo con respeto, sin ignorar lo que siente, porque en su silencio se esconde una sabiduría profunda que nos guía a cuidar de nosotros mismos.</li>
+                <li>El silencio de la mente me mostró la importancia de detener los pensamientos que nos llenan de ruido y ansiedad. Callar la mente no significa dejar de pensar, sino pensar mejor, con serenidad y claridad. En ese silencio interior se encuentra la paz que tantas veces buscamos afuera.</li>
+                <li>Gracias a Guido Ceronetti, comprendí que cuerpo y mente son templos que debemos cuidar con amor y atención. Sus palabras “Solo cuando la mente calla, el alma encuentra su verdadera voz” me inspiraron a valorar los momentos de quietud y reflexión, donde uno puede encontrarse consigo mismo.</li>
+            </ul>
+        </div>
+        <div class="imagen">
+            <img src="https://img.freepik.com/fotos-premium/vista-lateral-hombre-contra-fondo-negro_1048944-22390109.jpg?semt=ais_hybrid&w=740&q=80">
+        </div>
+    </div>
+    <button class="volver" onclick="mostrar('inicio')">Volver al inicio</button>
+</div>
+
+<footer>
+    Editorial Lino©
+</footer>
+
+<script>
+function mostrar(id) {
+    const secciones = document.querySelectorAll('.contenido');
+    secciones.forEach(s => s.classList.remove('visible'));
+    document.getElementById(id).classList.add('visible');
+}
+</script>
+</body>
+</html>
